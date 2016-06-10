@@ -1,0 +1,395 @@
+Boulder Colorado Scanner Frequency list.  freqs.txt
+Updated 05-Dec-2014
+
+
+Copyright 2014: All Rights Reserved.
+Use for monetary gain or republication for profit without permission is
+prohibited.  The latest list can be found at:
+	http://www.nyx.net/~mbeaty/scan.html
+
+This data is intended for the listening public.  It is provided free of
+charge.  Feel free to pass it on to others.  Please leave this header
+intact so folks will know where you found this and will know where to
+look next time.
+
+Use of this information in the commission of a crime is prohibited and
+prosecutable by Local, State & Federal Laws.  Transmitting on
+frequencies where you don't hold a license is a crime.  Don't program
+transmitters unless you are licensed for the frequencies.
+
+Public Safety frequencies are constantly changing.  Send updates to me
+and I'll update the list for the benefit of your future use and the
+benefit of others.
+
+I primarily listen in Boulder.  This list only attempts to cover
+Boulder.  If you want other areas in Colorado, I recommend:
+	<http://www.radioreference.com/apps/db/?stid=8>
+
+When a channel is repeated, I provide the input (xmit) frequency.  There
+have been occasions when I'm close by and can hear the unit transmitting
+when the repeater can't.  Not often, but occasionally.  I don't provide
+PL (CTCSS) information.  Casual/hobby listeners don't generally need
+this information: those that want it, have access to it.
+
+Formatting: I choose to use fixed width, tabbed text.  This was more
+elegant with wideband frequency plans because there were only three
+digits to the right of the decimal.  Now that some have 4 digits, it
+slides my tab stop to the right which doesn't allow for good
+readability and also reduces the space available for comments.  My
+workaround: truncate narrowband frequencies.  So, if a frequency ends
+in a 2 or 7, it really has a 5 as the "ten-thousandths" digit
+	Example: 159.247 is really 159.2475
+
+05-Dec-2014: updated AMR Boulder info
+26-Feb-2012: updated VTAC, UTAC, 8TAC info
+12-Jan-2012: added BMFPD info.  Thanks David Kabal!
+
+
+Receive		 Xmit	User or agency
+-------	 ------- ----------------
+
+FIRE DEPARTMENTS
+
+154.325		Red 1 Simplex		- FD Dispatch
+151.355	154.325	Red 1 Repeater 		- South: Mt Thorodin
+155.535	154.325	Red 1 Repeater 		- North: Mead
+154.220	154.325	Red 1 Repeater 		- Central: Gunbarrel
+154.205		Red 2			- County FD Simplex
+154.415		Red 3			- County FD Simplex
+153.830		Red 4			- County FD Simplex
+153.950		Red 5			- County FD Simplex
+154.370	153.770	Red 6 Repeater		- County FD Repeated
+155.850		Red 7			- County FD Simplex
+155.250		Red NW			- 800 MHz NW Metro FD mutual aid link
+
+151.377	155.437	Fire-1			- Boulder FD Dispatch
+155.782	159.157	Fire-2			- Boulder FD Repeater
+158.752		F-TAC 1			- Boulder FD Fireground Simplex
+156.157		F-TAC 2			- Boulder FD Fireground Simplex
+155.782		F-TAC 3 	 	- Boulder FD Fire-2 Talkaround
+
+153.890		Boulder Rural FD
+155.205		Boulder Emergency Squad (BES)
+160.020	150.905	Boulder Mountain Fire Protection District (BMFPD)
+153.455		Pinebrook Water (some BMFPD Tac use)
+153.845 156.015 High Country FPD
+158.9625	Hygiene FD
+155.115		Lafayette FD
+151.685		Longmont Emergency Unit (LEU)
+154.175 154.430 Longmont FD Fire-1	- see also 800 DTRS
+151.025	153.920	Longmont FD Tac 2	- see also 800 DTRS
+154.815		Longmont FD Tac 3	- see also 800 DTRS
+155.385		Louisville FD
+155.100		Lyons FD
+154.355		Mountain View FD Tac 1	- primarily now on 800 DTRS
+151.205 150.805 Mountain View FD Tac 2	- primarily now on 800 DTRS
+154.160		Rocky Mtn FD "Company"	- primarily now on 800 DTRS
+151.745		Rocky Mtn FD "Crew	- primarily now on 800 DTRS
+154.250		Sugarloaf FD
+
+154.145		Weld County Fire B: North
+153.785		Weld County Fire A: South
+
+154.280		FERN 1 Fireground
+154.295		FERN 2 Haz Mat Ops
+154.265		FERN 3 Training
+
+DTRS		See http://www.radioreference.com/apps/db/?sid=329
+		Need a GRE PSR 500, Radio Shack Pro-106, or other
+		digital trunking scanner to monitor.
+9104  		BC Fire1 - Red 1 Simulcast
+9105		BC Fire2
+9106		BC Fire3
+9107		BC OEM
+9108		BC EMS
+9108		BC Radio Techs
+9110		BC MAC			MAC = Mutual Aid Channel
+9522		Longmont Fire Dispatch
+9524		Longmont Fire Tac 1
+9525		Longmont Fire Tac 2
+9526		Longmont Fire Tac 3
+9113		MVFPD 1			Mountain View FD is off of
+9114		MVFPD 2			DTRS and on the FRCC.
+9540		MVFPD 3			Uses primarily MAC 6 in Boulder
+9541		MVFPD 4			County
+2295		Red Northwest - Mutual Aid
+9111		Rocky Mountain FD Fireground
+2305 		CSP Troop 1D Dispatch
+2307 		CSP Troop 1D Tac
+2389 		CSP Troop 6C Dispatch
+2391		CSP Troop 6C Tac
+2397 		CSP Statewide
+2441 		CSP Officer In Trouble
+
+Control channels for Local DTRS towers
+853.9750	Mount Thorodin
+853.9875	Mead
+853.9500	Betasso
+774.88125	Gunbarrel
+774.20625	Longmont
+
+
+MEDICAL AGENCIES
+
+AMR - on LTR trunking system: assumed Boulder County contract 01-Jan-2012
+[This is AMR company traffic only.  Dispatch occurs on FD frequencies.]
+AMR has BFD, Longmont FD, BRFD, and County 911 contracts.
+936.750		AMR LCN 03
+936.750		AMR LCN 07
+937.750		AMR LCN 11
+938.750		AMR LCN 15
+Talkgroups
+0-15-001	AMR Boulder Dispatch / Admin
+0-11-001	AMR Boulder 1
+0-11-002	AMR Boulder 2
+0-11-003	AMR Boulder Tac
+
+Pridemark: providing some non-emergent transports
+158.985	156.045	Pridemark Boulder Ambulances & CCT
+153.605 160.005 Pridemark Admin
+154.190	151.250	Pridemark Denver 911 Ambulances & CCT
+153.185	158.235	Pridemark Paratransit
+
+155.280		Boulder Community Hospital
+155.280		Wardenburg Health Center
+155.280		Avista
+155.280		Exempla Good Samaratan
+155.280		Longmont United Hospital
+
+155.340		VMED28 - HEAR Med Channel
+
+155.400		Tri-Area Ambulance
+
+
+LAW ENFORCEMENT
+
+155.145 155.865 Green		- Sheriff Dispatch
+158.850 155.865 Green North	- Sheriff Dispatch
+159.270 155.865	Green South	- Sheriff Dispatch
+155.415		Purple		- Sheriff Data
+155.805		Copper		- Sheriff Tac Simplex
+155.655 154.950	Yellow		- Sheriff Tac Repeated
+155.925 154.310	Yellow 2	- Sheriff Tac Repeated
+
+156.135	155.625	Police-1 (Blue)	- City PD Dispatch
+151.077	156.082	Police-2	- City PD Dispatch
+155.490		PTAC-1 (Bronze)	- City PD Tac Simplex
+155.520	156.105	PTAC-2 (Tac 3)	- City PD Tac Repeated
+159.412		PTAC-3 		- City PD Tac Simplex
+151.077		PTAC-4 		- City PD Tac Simplex (Police-2 Talkaround)
+159.112		Schools Link	- City PD to BHS/FHS link
+155.085 159.330	Violet		- City PD Data
+154.980		White		- City Parks/Animal Ctrl
+
+158.775		Grey		- Paging
+
+465.313 460.313 Boulder County Jail
+154.800		Boulder County Juvenile Detentions
+154.845         Boulder County Jail VHF Repeater Link
+155.850         Boulder County Jail Transport/Workcrew
+
+453.825 458.825 Boulder Falls Lower Callbox
+458.825 453.825 Boulder Falls Upper Callbox
+
+460.425		CLEER
+
+154.055		Louisville PD and Public Works
+156.225		Louisville Local Government
+159.075		Louisville Local Government
+158.910		Louisville/Boulder County SO Tac
+
+156.210 154.650 Police-1	- Longmont PD 1  - Now on DTRS
+151.310	159.300 Police-2	- Longmont PD 2  - Now on DTRS
+151.220 159.015 LTAC-1		- Longmont PD    - Now on DTRS
+159.345				- Longmont PD    - Now on DTRS
+
+155.475		NLEEC
+
+155.190 159.247 Silver		- University of Colorado PD
+152.982	158.302	Platinum	- University of Colorado PD
+155.025 155.985 Gold		- University of Colorado Parking
+151.542	158.392	TAC-4		- University of Colorado PD
+154.542	160.117	EVENT-1		- University of Colorado PD
+158.925				- University of Colorado Boulder UMC
+ 45.240				- University of Colorado Boulder Busses
+
+
+MUTUAL AID AND STATEWIDE EMERGENCY
+
+155.475		NLEEC (National Law Enforcement Emergency Channel)
+460.100 465.100 CLEM (Colorado Law Enforcement Mutual Aid)
+460.425 465.425 CLEER (Colorado Law Enforcement Emergency Radio)
+458.625		CSPN (Colorado Public Safety Network)
+
+158.805		Blue NW = DTRS Law 800 link
+
+155.7525	Interoperability Narrow Band VCALL
+151.1375	Interoperability Narrow Band VTAC 1
+154.4525	Interoperability Narrow Band VTAC 2
+158.7375	Interoperability Narrow Band VTAC 3
+159.4725	Interoperability Narrow Band VTAC 4
+
+453.2125 	UCALLa          (Base/Mobile)
+458.2125 	UCALL           (Mobile)
+453.4625 	UTAC1a          (Base/Mobile)
+458.4625 	UTAC1           (Mobile)
+453.7125 	UTAC2a          (Base/Mobile)
+458.7125 	UTAC2           (Mobile)
+453.8625 	UTAC3a          (Base/Mobile)
+458.8625 	UTAC3           (Mobile)
+
+866.0125	8CALL   601     (Base/Mobile)
+821.0125 	8CALL   601     (Mobile)
+866.5125 	8TAC1   639     (Base/Mobile)
+822.5125 	8TAC1   639     (Mobile)
+867.0125 	8TAC2   677     (Base/Mobile)
+822.0125 	8TAC2   677     (Mobile)
+867.5125 	8TAC3   715     (Base/Mobile)
+822.5125 	8TAC3   715     (Mobile)
+868.0125 	8TAC4   753     (Base/Mobile)
+823.0125 	8TAC4   753     (Mobile)
+
+OTHER BOULDER COUNTY CHANNELS
+
+153.860		Boulder "Orange"	City Public Works
+151.685		Boulder "Tan"		City Public Works portables
+156.180		Boulder "Brown"		County Public Works
+153.755		Boulder County		Public Works portables
+
+155.100		Lyons Local Government
+158.895		Longmont Local Government (Plows)
+
+453.200 458.200 Univ of Colorado Local Government
+
+155.295		Boulder Valley School District Busses/Security
+153.477	158.137	Boulder Valley School Hoover Hill Repeater
+158.340         Broomfield High: Boulder Valley School
+159.615         Boulder High: Boulder Valley School
+159.510         Fairview High: Boulder Valley School
+159.795         Nederland High: Boulder Valley School
+159.945         Centaurus High: Boulder Valley School
+
+
+SEARCH AND RESCUE
+
+155.160		Mountain Rescue Association
+155.235		Rocky Mountain Rescue
+155.175		Front Range Rescue Dogs
+
+
+FOREST SERVICES
+
+151.340		Colorado State Forest Service
+
+163.100		U.S. Forest Service National Common
+168.050		NIFC TAC 1
+168.200		NIFC TAC 2
+168.600		NIFC TAC 3
+168.700 170.975 NIFC Command Repeater
+168.175		U.S. Forest Service Roosevelt Worknet
+168.350		U.S. Forest Service R-2 Tactical
+168.625		U.S. Forest Service Air Guard
+168.650		U.S. Forest Service Air Net
+172.275		U.S. Forest Service IMG Aviation
+172.325		U.S. Forest Service Air/Ground Tactical
+169.175		U.S. Forest Service Roosevelt Ground
+169.175 169.975 U.S. Forest Service Deadman
+169.175 169.975 U.S. Forest Service Buckhorn
+169.175 169.975 U.S. Forest Service Twin Sisters
+169.175 169.975 U.S. Forest Service Thorodin
+169.175 169.975 U.S. Forest Service Grassland
+169.175 169.975 U.S. Forest Service Pawnee
+164.100		U.S. Forest Service Arapaho Work Net
+169.875		U.S. Forest Service Arapaho Ground
+169.875 170.475 U.S. Forest Service Squaw Mountain Repeater
+169.875 170.475 U.S. Forest Service Nines Peak
+168.025		U.S. Forest Service Monarch
+168.725		U.S. Forest Service Pike
+169.900		U.S. Forest Service San Isabel
+
+PARKS & WILDLIFE
+
+166.350 166.950 Rocky Mountain National Park
+166.350		Rocky Mountain National Park
+
+
+AIRCRAFT
+
+118.900		Arapahoe Tower
+123.700		Arapahoe Tower
+121.800		Arapahoe Ground
+
+123.300		Boulder Gliders
+123.500		Boulder Gliders
+122.725		Boulder CTAF/Unicom
+
+126.900		Denver Radar West
+119.300		Denver Radar East
+120.500		Denver Center
+120.800		Denver Center
+124.800		Denver Center
+128.650		Denver Center
+132.850		Denver Center
+133.750		Denver Center
+
+118.600		Jeffco Tower
+121.700		Jeffco Ground
+126.250		Jeffco ATIS
+
+122.975		Longmont CTAF/Unicom
+
+123.000		Eric Municipal CTAF/Unicom
+
+122.250		Balloons
+123.050		Helicopters
+121.500		Emergency Aircraft & ELTs
+123.100		Search & Rescue Air Operations
+
+
+WEATHER:
+
+162.400		NOAA Weather Pueblo
+162.475		NOAA Weather Colorado Springs
+162.550		NOAA Weather Denver
+
+
+SPECIAL EVENTS:
+
+Bolder Boulder/Creek Fest [May 2011]
+461.0625	Bolder Boulder MASH Medical Tent Operations
+462.0375	Bolder Boulder Folsom Stadium Operations
+463.4375	Bolder Boulder Starting Line Operations
+464.2875	Bolder Boulder Race Marshalls "Comm Center"
+461.1375	Boulder Creek Events Operations "Channel 1"
+463.4625	Boulder Creek Events Operations "Channel 3"
+461.8125	repeater
+462.8125	simplex
+463.8125	simplex
+463.9125	simplex
+464.5000	simplex
+464.9375	simplex
+
+FRS/GMRS:
+
+1	FRS / GMRS	462.5625
+2	FRS / GMRS	462.5875
+3	FRS / GMRS	462.6125
+4	FRS / GMRS	462.6375
+5	FRS / GMRS	462.6625
+6	FRS / GMRS	462.6875
+7	FRS / GMRS	462.7125
+8	FRS	467.5625
+9	FRS	467.5875
+10	FRS	467.6125
+11	FRS	467.6375
+12	FRS	467.6625
+13	FRS	467.6875
+14	FRS	467.7125
+15	GMRS	462.5500
+16	GMRS	462.5750
+17	GMRS	462.6000
+18	GMRS	462.6250
+19	GMRS	462.6500
+20	GMRS	462.6750
+21	GMRS	462.7000
+22	GMRS	462.725
