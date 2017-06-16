@@ -94,6 +94,8 @@ FIRE DEPARTMENTS
 154.295		FERN 2 Haz Mat Ops
 154.265		FERN 3 Training
 
+155.94000 	WPQI299 	RM		Lafayete EMS	Lafayette EMS 	FMN 	EMS Dispatch
+
 DTRS		See http://www.radioreference.com/apps/db/?sid=329
 		Need a GRE PSR 500, Radio Shack Pro-106, or other
 		digital trunking scanner to monitor.
